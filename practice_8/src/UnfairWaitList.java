@@ -1,4 +1,5 @@
 public class UnfairWaitList<E> extends WaitList<E>{
+
     public UnfairWaitList() {
         super();
     }

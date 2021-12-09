@@ -20,7 +20,7 @@ public class Ex7 {
         return "data for " + key;
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         try
         {
             new Ex7().getKey();

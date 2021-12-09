@@ -10,7 +10,6 @@ public class Test {
         internetOrder.add(new Dish(5.0, "rgemkler", "ej2qqwew"));
         internetOrder.add(new Drink(2.0, "gegr", "grege"));
 
-
         System.out.println(internetOrder.getSizeOrder());
         for (Item item : internetOrder.getArrayOrders())
             System.out.println(item);

@@ -67,11 +67,12 @@ public class ExpressionParser {
                     operations.pop();
                     last = false;
                 } else if (isOperation(str.charAt(i))) {
-//                    if (str.charAt(i) == '-' && last)
-//                    {
-//                        numbers.add(new Const(new Subtract(numbers.pop(), new Const(-1.0)).evaluate(dict)));
-//                        operations.pop();
-//                    }
+                    if (str.charAt(i) == '-' && last)
+                    {
+                        numbers.add(new Const(-1));
+                        doIt(numbers, '*');
+                        operations.pop();
+                    }
                     while (!operations.isEmpty() && priorityOperation(operations.peek()) >= priorityOperation(str.charAt(i))) {
                         doIt(numbers, operations.pop());
                     }

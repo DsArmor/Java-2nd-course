@@ -59,7 +59,6 @@ public class OrderManager {
         }
         return count;
     }
-
 }
 
 enum ItemType {

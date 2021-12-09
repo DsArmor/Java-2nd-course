@@ -24,14 +24,14 @@ class Main {
 
     public static void main(String[] args) {
         //ex2
-        System.out.println(new Address("Russia, Moscow obl, Moscow, Perv, 11"));
-        System.out.println(new Address("USA; Khalifa obl; Ottawa; Norte; 13", ";"));
-        System.out.println(new Address("France, Paris obl, Paris, Kochab, 21"));
-        System.out.println(new Address("Bulgaria, Sofas, Sofia, Ost, 1"));
+        System.out.println(new Address("Russia? Moscow obl? Moscow? Perv? 11"));
+//        System.out.println(new Address("USA; Khalifa obl; Ottawa; Norte; 13", ";"));
+//        System.out.println(new Address("France, Paris obl, Paris, Kochab, 21"));
+//        System.out.println(new Address("Bulgaria, Sofas, Sofia, Ost, 1"));
 
         //ex3
         String[] shirts = new String[11];
-        shirts[0] = "S001,Black Polo Shirt,Black,XL";
+        shirts[0] = "S001?Black Polo Shirt?Black?XL";
         shirts[1] = "S002,Black Polo Shirt,Black,L";
         shirts[2] = "S003,Blue Polo Shirt,Blue,XL";
         shirts[3] = "S004,Blue Polo Shirt,Blue,M";

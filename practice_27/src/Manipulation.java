@@ -51,7 +51,7 @@ public class Manipulation {
     }
 
     public static void main(String[] args) {
-//        ex1();
+        ex1();
         Pattern p = Pattern.compile("^abcdefghijklmnopqrstuv18340$");
         System.out.println(p.matcher(new Scanner(System.in).nextLine()).find());
     }

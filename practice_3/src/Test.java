@@ -6,7 +6,7 @@ public class Test {
         System.out.println(s1.getPerimeter()); // which version?
         System.out.println(s1.getColor());
         System.out.println(s1.isFilled());
-//        System.out.println(s1.getRadius());
+        System.out.println(((Circle)s1).getRadius());
         Circle c1 = (Circle) s1; // Downcast back to Circle
         System.out.println(c1);
         System.out.println(c1.getArea());

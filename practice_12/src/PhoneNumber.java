@@ -5,8 +5,8 @@ public class PhoneNumber {
     private String parsePhone(StringBuffer phone) {
         if (phone.charAt(0) != '+')
             phone.insert(0, '+');
-        phone.insert(phone.length() - 4, '-');
-        phone.insert(phone.length() - 8, '-');
+        phone.insert(phone.length() - 4, '?');
+        phone.insert(phone.length() - 8, '?');
         return String.valueOf(phone);
     }
 

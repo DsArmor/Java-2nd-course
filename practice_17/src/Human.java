@@ -57,6 +57,14 @@ class Leg{
         this.size = size;
         this.footFor = footFor;
     }
+
+    @Override
+    public String toString() {
+        return "Leg{" +
+                "size=" + size +
+                ", footFor='" + footFor + '\'' +
+                '}';
+    }
 }
 
 class Head{

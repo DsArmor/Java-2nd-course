@@ -62,10 +62,10 @@ public class Task1_3 {
             System.out.print(secondList.get(i)+" ");
         }
         System.out.println();
-        for (int i = 15;i<30;i++){
+        for (int i = 15; i<30; i++){
             arrayList.add(i);//work
         }
-        for (int i = 0;i<arrayList.size();i++){
+        for (int i = 0; i<arrayList.size(); i++){
             System.out.print(arrayList.get(i)+" ");
         }
         System.out.println();

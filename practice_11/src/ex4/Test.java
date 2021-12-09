@@ -19,10 +19,10 @@ public class Test {
         ExpressionParser expressionParser = new ExpressionParser(dict);
 
         System.out.println(expressionParser.tripleExpressionParse("x * (y - 2)*z + 1").evaluate(dict));
-        System.out.println("x         f");
+//        System.out.println("x         f");
         for (int i = 0; i < 11; i++){
             dict.put('x', Double.parseDouble(String.valueOf(i)));
-            System.out.println(dict.get('x') + "     " + expressionParser.tripleExpressionParse("1000000*x*x*x*x*x/(x-1)").evaluate(dict));
+//            System.out.println(dict.get('x') + "     " + expressionParser.tripleExpressionParse("1000000*x*x*x*x*x/(x-1)").evaluate(dict));
         }
     }
 }

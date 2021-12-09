@@ -14,11 +14,11 @@ public class Manipulation {
         while (matcher.find()){
             System.out.println(matcher.group()+" ");
         }
-        //24.8 USD;
-        //35 EU;
-        //57.2 USD;
-        //24 UDS, 25USD, 4839 ET, 89 RUB, 67 RuB;
-        // EU RUB      USD 3 USD
+//        24.8 USD;
+//        35 EU;
+//        57.2 USD;
+//        24 UDS, 25USD, 4839 ET, 89 RUB, 67 RuB;
+//         EU RUB      USD 3 USD
     }
 
     public static void ex2(){
@@ -35,7 +35,7 @@ public class Manipulation {
 
 
     public static void main(String[] args) {
-        ex1();
+//        ex1();
         ex2();
     }
 }

@@ -15,7 +15,7 @@ public class ImageFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
-    //D:\System_programs\JDK\bin\java ImageFrame.java для запуска с аргументом ибо ебать нахуй не видит он java
+    //D:\System_programs\JDK\bin\java ImageFrame.java для запуска с аргументом
     //D:\System_programs\JDK\bin\java ImageFrame.java D:\third_semestr\Java\Git\Java-2nd-course\practice_20\scale_1200.jfif
 
     public static void main(String[] args) {

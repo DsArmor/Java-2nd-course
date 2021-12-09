@@ -148,10 +148,11 @@ public class InternetOrder implements Order {
             return temp.item.getPrice();
         }
         double sum = 0;
-        while (temp.next != first.next) {
+        do {
             sum += temp.item.getPrice();
             temp = temp.next;
-        }
+        } while (temp != first.next);
+//        sum+=temp.item.getPrice();
         return sum;
     }
 

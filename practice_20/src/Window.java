@@ -11,7 +11,7 @@ public class Window extends JFrame {
         JFrame.setDefaultLookAndFeelDecorated(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
-        setSize(1920,1080);
+        setSize(800,600);
         setVisible(true);
     }
 

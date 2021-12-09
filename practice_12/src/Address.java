@@ -31,7 +31,7 @@ public class Address {
     }
 
     public Address(String str) {
-        String[] strings = str.split(",");
+        String[] strings = str.split("\\?");
         country = parseWord(new StringBuffer(strings[0]));
         region = parseWord(new StringBuffer(strings[1]));
         city = parseWord(new StringBuffer(strings[2]));

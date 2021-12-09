@@ -13,4 +13,12 @@ public class Complex {
         this.real = 0;
         this.image = 0;
     }
+
+    @Override
+    public String toString() {
+        return "Complex{" +
+                "real=" + real +
+                ", image=" + image +
+                '}';
+    }
 }
